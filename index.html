@@ -146,7 +146,7 @@
                         
                         <li><a data-scroll href="#services">Services</a></li>
                         
-                        <li><a data-scroll href="#contact">Contact</a></li>
+                        <li><a data-scroll href="#contact-us">Contact</a></li>
                         
                     </ul>
                 </nav>
@@ -367,7 +367,8 @@
 
             <!-- Contact Form -->
             <div class="contact-form col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-                <form id="contact-form" method="post" action="sendmail.php" role="form">
+
+                <form id="contact-form" action="https://formspree.io/j.jansen@force-e.nl" method="POST"  role="form">
 
                     <div class="form-group">
                         <input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
@@ -385,16 +386,8 @@
                         <textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>
                     </div>
 
-                    <div id="mail-success" class="success">
-                        Thank you. The Mailman is on His Way :)
-                    </div>
-
-                    <div id="mail-fail" class="error">
-                        Sorry, don't know what happened. Try later :(
-                    </div>
-
                     <div id="cf-submit">
-                        <input type="submit" id="contact-submit" class="btn btn-transparent" value="Submit">
+                        <input type="submit" class="btn btn-transparent" value="Send">
                     </div>
 
                 </form>
