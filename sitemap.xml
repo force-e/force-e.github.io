@@ -3,17 +3,7 @@
   xmlns:xhtml="https://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.force-e.nl/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://www.force-e.nl/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.force-e.nl/tags/</loc>
     <priority>0</priority>
   </url>
   
